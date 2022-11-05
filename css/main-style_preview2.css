@@ -1,0 +1,56 @@
+/*--------------------<><><> START HOME PREVIEW_2 STYLE <><><>--------------------*/
+
+/*
+--------------------------
+Template Name:   MESH MAG - Magazine HTML Responsive Template.
+Version:         1.3
+Date:            5 October 2017
+Primary use:     Site Template ( HTML5, CSS3, jQuery ) - Magazine.
+Author:          MSGTT - A.SH Desings.
+--------------------------
+*/
+
+
+
+/*---------- START (1.3)INTRO SLIDER ----------*/
+.intro-slider {
+    height: 532.656px; /* bx-viewport same height */
+}
+
+/* Center Slid */
+.intro-slider .cntr-slid {
+    width: calc(67% - 5px);
+    margin: 0 5px 0 0
+}
+
+/* Right Box */
+.intro-slider .box {
+    width: 33%
+}
+
+.intro-slider .box .caption .post-title {
+    margin-bottom: 20px
+}
+/*---------- END (1.3)INTRO SLIDER ----------*/
+
+
+
+/*---------- START (3.2)TOP FOOTER ----------*/
+/*----- Start Top Footer Content -----*/
+.top-footer .subscribe-section form {
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.top-footer .subscribe-section form label {
+    color: #EEE
+}
+
+/* Categories , Links */
+.top-footer .categ li a,
+.top-footer .links li a {
+    padding: 10px 0
+}
+/*----- End Top Footer Content -----*/
+/*---------- END (3.2)TOP FOOTER ----------*/
+
+/*--------------------<><><> END HOME PREVIEW_2 STYLE <><><>--------------------*/

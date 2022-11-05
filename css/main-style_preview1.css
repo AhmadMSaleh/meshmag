@@ -1,0 +1,487 @@
+/*--------------------<><><> START HOME PREVIEW_1 STYLE <><><>--------------------*/
+
+/*
+--------------------------
+Template Name:   MESH MAG - Magazine HTML Responsive Template.
+Version:         1.3
+Date:            20 November 2017
+Primary use:     Site Template ( HTML5, CSS3, jQuery ) - Magazine.
+Author:          Ahmed_Saleh.
+--------------------------
+*/
+
+
+
+/*---------- START (1.1)TOP BAR ----------*/
+.top-bar .nav-bar {
+    width: 60.2%;
+}
+
+/*----- Start Accounts -----*/
+.top-bar .accounts-wrap {
+    position: relative
+}
+
+.top-bar .accounts-wrap:after {
+    content: "\f007";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: inherit;
+    padding: 14.5px 20px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FFF;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 59px
+}
+
+.top-bar .accounts-wrap .accounts {
+    display: none;
+    width: 140px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50px;
+    right: -29px;
+    z-index: 9999
+}
+
+.top-bar .accounts-wrap .accounts li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    position: relative
+}
+
+.top-bar .accounts-wrap .accounts li a {
+    display: block;
+    padding: 14.5px 20px 14.5px 35px;
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    position: relative;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease
+}
+
+.top-bar .accounts-wrap .accounts li:nth-child(1):before,
+.top-bar .accounts-wrap .accounts li:nth-child(2):before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-decoration: inherit;
+    color: #FFF;
+    position: absolute;
+    top: 15px;
+    left: 15px
+}
+
+.top-bar .accounts-wrap .accounts li:nth-child(1):before {
+    content: "\f090"
+}
+
+.top-bar .accounts-wrap .accounts li:nth-child(2):before {
+    content: "\f084"
+}
+
+.top-bar .accounts-wrap > li .active,
+.top-bar .accounts-wrap li a:hover {
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+@media ( min-width: 992px ) and ( max-width: 1179px ) {
+    
+    .top-bar .accounts-wrap {
+        top: 50px;
+        right: -55px
+    }
+    
+    .top-bar .accounts-wrap:after {
+        background-color: #4756CA
+    }
+    
+    .top-bar .accounts-wrap .accounts {
+        right: 59px
+    }
+    
+}
+
+
+@media ( max-width: 991px ) {
+    
+    .top-bar .accounts-wrap:after {
+        padding: 0;
+        font-size: 23px;
+        background-color: transparent;
+        color: #4756CA;
+        top: 15px;
+        right: 69px
+    }
+    
+    .top-bar .accounts-wrap .accounts {
+        right: 5px
+    }
+    
+}
+/*----- End Accounts -----*/
+
+
+/*----- Start Search Bar -----*/
+.top-bar .search-bar form input {
+    height: 42px;
+    margin: 4px 0
+}
+/*----- End Search Bar -----*/
+/*---------- END (1.1)TOP BAR ----------*/
+
+
+/*---------- START (1.3)INTRO SLIDER ----------*/
+.intro-slider {
+    height: 402.656px /* bx-viewport same height */
+}
+
+/* Center Slid */
+.intro-slider .cntr-slid {
+    width: calc(50.75% - 5px);
+    margin: 0 5px 0 0
+}
+
+/* Right Box */
+.intro-slider .box {
+    width: 49.251%
+}
+
+.intro-slider .box .top,
+.intro-slider .box .bottom {
+    width: 49.579%
+}
+
+.intro-slider .box .top {
+    float: left;
+    margin: 0 5px 0 0
+}
+
+.intro-slider .box .post-img > div {
+    max-height: 402.64px
+}
+
+.intro-slider .box .top img,
+.intro-slider .box .bottom img {
+    width: 100%
+}
+
+.intro-slider .box .caption,
+.intro-slider .box > div:hover .caption {
+    bottom: 0
+}
+
+.intro-slider .box .caption .post-title {
+    margin-bottom: 20px
+}
+
+
+@media ( min-width: 480px ) and ( max-width: 1179px ) {
+    
+    .intro-slider .box .top,
+    .intro-slider .box .bottom {
+        width: 49.470% !important
+    }
+    
+    .intro-slider .box .bottom {
+        margin-left: 0 !important
+    }
+}
+
+
+@media ( max-width: 479px ) {
+    
+    .intro-slider .box {
+        width: 100%
+    }
+    
+    .intro-slider .box .top,
+    .intro-slider .box .bottom {
+        width: 100%
+    }
+    
+    .intro-slider .box .top {
+        float: none;
+        margin: 0 0 5px 0
+    }
+    
+}
+/*---------- END (1.3)INTRO SLIDER ----------*/
+
+
+
+/*---------- START (2.1)MAIN CONTENT ----------*/
+/*----- Start Section4 -----*/
+.section4 .left-part > div:first-of-type {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #EEE
+}
+
+.section4 .sm-post .post-img > div {
+    width: 140px
+}
+
+@media ( max-width: 479px ) {
+    
+    .section4 .left-part {
+        padding-bottom: 0
+    }
+    
+    .section4 .left-part .sm-post {
+        padding-bottom: 20px;
+        border-bottom: 2px solid #EEE
+    }
+    
+    .section4 .sm-post .post-img > div {
+        width: 153px
+    }
+    
+}
+/*----- End Section4 -----*/
+
+
+/*----- Start Section7 -----*/
+.section7 .sec-content {
+    float: left;
+    width: calc(50% - 10px)
+}
+
+.section7 .sec-content:nth-child(even) {
+    margin-left: 10px
+}
+
+.section7 .sec-content:nth-child(odd) {
+    margin-right: 10px
+}
+
+.section7 .box:last-child .sec-content {
+    border-bottom: none
+}
+
+.section7 .sec-content:last-child {
+    border-bottom: 2px solid #EEE
+}
+
+.section7 .post-img,
+.section7 .post {
+    float: none;
+    width: 100%
+}
+
+.section7 .post-img > div {
+    margin-right: 0
+}
+
+.section7 .post > div {
+    margin: 20px 0 0 0
+}
+
+@media ( max-width: 639px ) {
+    
+    .section7 .sec-content {
+        float: none;
+        width: 100%
+    }
+    
+    .section7 .sec-content:nth-child(odd) {
+        margin-right: 0
+    }
+    
+    .section7 .sec-content:nth-child(even) {
+        margin-left: 0
+    }
+    
+    .section7 .box:last-child .sec-content {
+        border-bottom: 2px solid #EEE
+    }
+    
+    .section7 .box:last-child .sec-content:last-child {
+        border-bottom: none
+    }
+    
+    .section7 .post > div {
+        margin: 0
+    }
+    
+}
+
+
+@media ( min-width: 640px ) and ( max-width: 767px) {
+    
+    .section7 .sec-content .post > div {
+        padding-top: 0
+    }
+    
+} 
+/*----- End Section7 -----*/
+/*---------- END (2.1)MAIN CONTENT ----------*/
+
+
+
+/*---------- START (2.2)SIDEBAR CONTENT ----------*/
+/*----- Start Counter Section -----*/
+.counter-section .s-counter li {
+    float: left;
+    width: 32.33%;
+    margin: 0 1% 1% 0 !important
+}
+
+.counter-section .s-counter li a {
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 25px;
+    border-radius: 8px 0
+}
+
+.counter-section .s-counter li:hover a {
+    font-size: 25px;
+    -webkit-transform: skewX(-8deg);
+    -ms-transform: skewX(-8deg);
+    transform: skewX(-8deg)
+}
+/*----- End Counter Section -----*/
+
+
+/*----- Start Tags Section -----*/
+.tags-section li {
+    display: inline-block
+}
+
+.tags-section li a {
+    display: block;
+    padding: 3px 10px;
+    margin: 5px 3px 0 0;
+    font-size: 13px;
+    border: 1px solid #CCC;
+    border-radius: 2px;
+    text-align: center;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease
+}
+
+.tags-section li a:hover {
+    color: #4756CA;
+    border: 1px solid #4756CA
+}
+/*----- End Tags Section -----*/
+/*---------- END (2.2)SIDEBAR CONTENT ----------*/
+
+
+
+/*---------- START (3.2)TOP FOOTER ----------*/
+.top-footer {
+    padding: 0 20px
+}
+
+.top-footer .top-footer-title {
+    float: left;
+    margin-right: 60px;
+    text-align: left
+}
+
+.top-footer .top-footer-title > div {
+    width: 270px;
+    margin-bottom: 20px
+}
+
+.top-footer .top-footer-title p {
+    display: inline-block;
+    width: 270px;
+    max-height: 135px;
+    line-height: 1.6em;
+    overflow: hidden;
+    margin: 0;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.90)
+}
+
+.top-footer .top-footer-content {
+    padding: 0;
+    margin-top: 10px
+}
+
+.top-footer .top-footer-content > div:nth-child(1),
+.top-footer .top-footer-content > div:nth-child(2) {
+    width: 48.75%;
+    margin-right: 20px
+}
+
+.top-footer .top-footer-content > div:nth-child(2) {
+    margin-right: 0
+}
+
+/*----- Start Subscribe Section -----*/
+.top-footer .subscribe-section .headline {
+    border-bottom: none
+}
+
+.top-footer .subscribe-section .headline h3 {
+    float: none;
+    line-height: inherit
+}
+
+.top-footer .subscribe-section .headline h3:before,
+.top-footer .subscribe-section .headline h3:after {
+    content: none
+}
+
+
+.top-footer .subscribe-section form {
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.top-footer .subscribe-section form label {
+    color: #FFF
+}
+
+.top-footer .subscribe-section form input[type="email"] {
+    padding-right: 121px
+}
+/*----- End Subscribe Section -----*/
+
+
+/*----- Start Top Footer Social -----*/
+.top-footer .top-footer-social li {
+    margin: 0 7px
+}
+
+.top-footer .top-footer-social li a {
+    border-radius: 2px
+}
+
+.top-footer .top-footer-social li a:hover {
+    -webkit-transform: translate(0, 5px);
+    -ms-transform: translate(0, 5px);
+    transform: translate(0, -5px)
+}
+/*----- End Top Footer Social -----*/
+
+@media ( max-width: 1179px ) {
+    
+    .top-footer .top-footer-title {
+        float: none;
+        margin: 0 0 40px 0;
+        text-align: center
+    }
+    
+    .top-footer .top-footer-title > div {
+        width: 100%
+    }
+    
+    .top-footer .top-footer-content {
+        margin-bottom: 0
+    }
+    
+}
+/*---------- END (3.2)TOP FOOTER ----------*/
+
+/*--------------------<><><> END HOME PREVIEW_1 STYLE <><><>--------------------*/

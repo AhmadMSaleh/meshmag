@@ -1,0 +1,256 @@
+/*--------------------<><><> START DARK STYLE <><><>--------------------*/
+
+.outer-container,
+body::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0.85)
+}
+
+.headline h3,
+.pages .page-content .sub-head,
+.sitemap .page-content .accord .title,
+.post-footer .author .author-name {
+    color: #FFF
+}
+
+.post-title,
+.section6 .tab-bar ul .active:after,
+.ticker-cont li .post-body {
+    color: #DCDCDC
+}
+
+p.post-body,
+.privacy .page-content li,
+.post-footer .comments .comnt-text {
+    color: #8A8A8A
+}
+
+.post-info span,
+.error .page-content h2:after {
+    color: #6D6D6D
+}
+
+.post-r-more:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+    color: #FFF
+}
+
+.sm-post,
+.section1 .top-part,
+.section2 .top-part,
+.section3 .top-part,
+.section4 .left-part > div:first-of-type,
+.section6 .conten .top-part,
+.section7 .sec-content,
+.section7 .sec-content:last-child,
+.sec-content,
+.section9 .vide,
+.news-section .vert-slider-contents .top-part,
+.news-section .vert-slider-contents .bottom-part,
+.pages .headline div {
+    border-bottom-color: #5B5B5B
+}
+
+.nav-menu,
+footer .wrapper,
+.pst-fotr-box,
+.account .page-content .form,
+.post-option {
+    background-color: rgb(60, 60, 60)
+}
+
+.nav-menu,
+.pst-fotr-box,
+.account .page-content .form,
+.post-option,
+.post-footer .author .author-info,
+.post-footer .nav .prev-post,
+.post-footer .nav .next-post {
+    border-color: #1D1D1D
+}
+
+.nav-menu .menu li:not(:first-child):before,
+.nav-menu .menu li a:after {
+    background-color: #CCC
+}
+
+.row-main,
+.row-side,
+.pages,
+.post-footer .comments .comnt {
+    background-color: rgb(45, 45, 45);
+    border-color: #1D1D1D
+}
+
+.row-main {
+    border-bottom-color: #4756CA;
+    border-bottom-width: 1px
+}
+
+.section6 .tab-bar {
+    border-bottom: 2px solid #999
+}
+
+.top-footer .tags li a:hover,
+.section6 .tab-bar ul li a,
+.ticker-cont li .tick-title,
+.post-footer .comments .comm-count,
+.post-footer .comments .title,
+.post-footer .comments .reply {
+    background-color: #999;
+    color: #333
+}
+
+.section6 .tab-bar ul .active {
+    background-color: #DCDCDC
+}
+
+.counter-section .s-counter li,
+.post-footer .comments .bar,
+.post-footer .comments .comnt-children .comnt,
+.post-footer .comments form {
+    border-color: #5B5B5B
+}
+
+.subscribe-section form {
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+body,
+.subscribe-section form label,
+.register .page-content form .sign-opti label a:hover,
+.comments-section .comments .comment > a,
+.pages .page-content > p,
+.pages .post-content .post-body > p,
+.post-content .post-body,
+.post-footer .author .author-details {
+    color: #CCC
+}
+
+.account-section .accou li,
+.subscribe-section form input[type="email"],
+.archive-section .accord-content,
+.contact .page-content form input:not([type="submit"]),
+.contact .page-content form textarea,
+.contact .page-content form input[type="submit"]:hover,
+.account .page-content form input,
+.account .page-content form input[type="submit"]:hover,
+.sitemap .page-content .accord .title,
+.post-footer .comments form input:not([type="submit"]),
+.post-footer .comments form textarea,
+.post-footer .comments form input[type="submit"]:hover {
+    background-color: #B9B9B9
+}
+
+.archive-section .accord-content .post-date,
+.teamwork .page-content .team .social li a i {
+    color: #EEE
+}
+
+.ticker {
+    background-color: rgb(85, 85, 85);
+    border-top: 1px solid #777
+}
+
+.ticker-cont li .tick-title:after {
+    border-left-color: #999
+}
+
+.top-footer .scroll-top i,
+.page-pagin li span:not(.active):hover,
+.account-section .accou li:hover,
+.post-footer .tags li a:hover {
+    background-color: #999
+}
+
+.teamwork .page-content .team:hover {
+    box-shadow: 0 0 8px #777
+}
+
+.page-results a,
+.sitemap .page-content .accord .post p {
+    background-color: #5B5B5B
+}
+
+.page-pagin li span,
+.sitemap .page-content .accord .content {
+    border-color: #777
+}
+
+.post-sub li a,
+.post-footer .author .author-social li a {
+    color: #333
+}
+
+.nav-menu .style .style-templ-wrap,
+.post-content .post-body blockquote,
+.post-footer .tags li a,
+.post-footer .nav .nav-butt {
+    background-color: #B9B9B9;
+    color: #FFF
+}
+
+.post-footer .tags li a:after {
+    border-left-color: #B9B9B9
+}
+
+.post-footer .tags li a:before {
+    border-right-color: #B9B9B9
+}
+
+@media (max-width: 991px) {
+    
+    .top-bar .nav-bar,
+    .top-bar .nav-bar li.drop-menu ul.menu {
+        background-color: rgb(60, 60, 60)
+    }
+    
+    .top-bar .nav-bar > li,
+    .top-bar .nav-bar li.drop-menu ul.menu li {
+        border-bottom-color: #5B5B5B
+    }
+    
+    .top-bar .nav-bar > li a,
+    .top-bar .nav-bar li.drop-menu ul.menu li.drop-menu > a:after {
+        color: #FFF
+    }
+    
+    .top-bar .nav-bar > li a:hover,
+    .top-bar .nav-bar li.drop-menu ul.menu li a:hover,
+    .top-bar .nav-bar > li .active {
+        background-color: #777
+    }
+    
+}
+
+@media (max-width: 479px) {
+    
+    .section4 .left-part .sm-post {
+        border-bottom-color: #5B5B5B
+    }
+    
+}
+
+
+@media (max-width: 639px) {
+    
+    .section7 .box:last-child .sec-content {
+        border-bottom-color: #5B5B5B
+    }
+    
+}
+
+
+@media (max-width: 767px) {
+    
+    .section1 .bottom-part .sm-post:last-child,
+    .section9 .vid-box:last-child .vide:nth-child(-n+3) {
+        border-bottom-color: #5B5B5B
+    }
+    
+    .section6 .conten:nth-child(2) {
+        border-top-color: #5B5B5B
+    }
+    
+}
+
+/*--------------------<><><> END DARK STYLE <><><>--------------------*/

@@ -1,0 +1,118 @@
+/*--------------------<><><> START DPINK ( #9E0039 ) COLOR <><><>--------------------*/
+
+/*----- Start Background Color -----*/
+/* Main-style */
+body::-webkit-scrollbar-thumb,
+.backg-colr,
+.headline h3:before,
+.headline h3:after,
+.nav-menu .style ul li:first-child span:hover,
+.nav-menu .menu li a:after,
+.section8 .caption-open:after,
+.section8 .owl-theme .owl-nav .owl-prev:before,
+.section8 .owl-theme .owl-nav .owl-next:before,
+.news-section .vert-slider-bar li.active span,
+.news-section .vert-slider-bar li.active span:after,
+/* Pages */
+.account .page-content form input[type="checkbox"],
+.page-pagin li .active,
+.page-results a:hover,
+.post-footer .author .author-social li i:hover,
+.post-footer .nav .nav-butt:hover,
+.post-footer .comments .reply:hover { 
+    background-color: #9E0039
+}
+/* Responsive */ 
+@media ( max-width: 991px ) {
+    .nav-menu .menu li a:hover,
+    .nav-menu .menu li .active {
+        background-color: #9E0039;
+        color: #FFF !important
+    }
+}
+/*----- End Background Color -----*/
+
+
+
+/*----- Start Color -----*/
+/* Main-style */
+.main-colr,
+.headline a:hover:before,
+.headline a:hover:after,
+.nav-menu .menu li a:hover,
+.section8 .caption-close:hover:after,
+.account-section .accou li a:before,
+.subscribe-section form span:hover:after,
+.news-section .vert-slider-bar li.active,
+.news-section .vert-slider-bar li.active:after,
+.tags-section li a:hover,
+.top-footer .tags li a:hover,
+/* Pages */
+.account .page-content form .form-row i,
+.post-content div:first-letter,
+.post-option > div span:after,
+.post-footer .nav .prev-post .nav-butt:before,
+.post-footer .nav .next-post .nav-butt:after {
+    color: #9E0039
+}
+/* Responsive */
+@media ( min-width: 992px ) and ( max-width: 1179px ) {
+    
+    .top-bar .accounts-wrap:after {
+        background-color: #9E0039
+    }
+    
+}
+
+@media ( max-width: 991px ) {
+    .top-bar .nav-respon-butt:after,
+    .top-bar .accounts-wrap:after,
+    .top-bar .search-bar form i,
+    .menu-respon-butt:after {
+        color: #9E0039
+    }
+}
+/*----- End Color -----*/
+
+
+
+/*----- Start Border -----*/
+.tags-section li a:hover {
+    border-color: #9E0039
+}
+/*----- End Border -----*/
+
+
+
+/*----- Start Border Right Color -----*/
+/* Main-style */
+.nav-menu .home,
+.nav-menu .style .style-templ-wrap {
+    border-right-color: #9E0039
+}
+/*----- End Border Right Color -----*/
+
+
+
+/*----- Start Border Bottom Color -----*/
+/* Main-style */
+.row-main,
+/* Pages */
+.pages .headline h3 {
+    border-bottom-color: #9E0039
+}
+/*----- End Border Bottom Color -----*/
+
+
+
+/*----- Start Border Left Color -----*/
+/* Main-style */
+.nav-menu .style,
+.ticker-head:after,
+/* Pages */
+.post-content .post-body blockquote {
+    border-left-color: #9E0039
+}
+/*----- End Border Left Color -----*/
+
+/*--------------------<><><> END DPINK ( #9E0039 ) COLOR <><><>--------------------*/
